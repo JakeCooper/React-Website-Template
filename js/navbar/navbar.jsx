@@ -19,7 +19,7 @@ class Navbar extends React.Component {
             <ul className="navbar-icons">
                 <li className="navbar-item email"><i className="fa fa-envelope"></i></li>
                 <li className="navbar-item facebook"><i className="fa fa-facebook-square"></i></li>
-                <li className="navbar-item twitter"><i className="fa fa-twitter"></i></li>
+                <li className="navbar-item twitter"><a href="https://www.twitter.com/HackUVIC"><i className="fa fa-twitter"></i></a></li>
             </ul>
         );
         return (
