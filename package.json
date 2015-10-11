@@ -8,6 +8,10 @@
     "serve": "node_modules/.bin/http-server -p 8080",
     "dev": "webpack-dev-server --progress --colors --port 8090"
   },
+  "repository" : { 
+    "type" : "git",
+    "url" : "https://github.com/JakeCooper/HackUVIC.git"
+  },
   "author": "Jake Cooper",
   "license": "MIT",
   "dependencies": {
