@@ -2,7 +2,18 @@
 'use strict';
 var React = require('react');
 var ReactDOM = require('react-dom');
-var Hello = require('./Hello');
+var Navbar = require('./navbar/navbar.jsx');
 require("../less/main.less"); //load less main file to compile all less.
 
-ReactDOM.render(<Hello />, document.getElementById('content'));
+class Index extends React.Component {
+    render() {
+        return (
+            <div>
+                <Navbar />
+            </div>
+        )
+
+    }
+}
+
+ReactDOM.render(<Index />, document.getElementById('content'));
