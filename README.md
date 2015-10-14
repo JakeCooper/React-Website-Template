@@ -7,6 +7,8 @@ React Website written for HackUVIC
 
 > npm run start
 
+> http://localhost:8080/
+
 ## JSX Formatting
 * React components are bootstrapped starting in js/index.  
 * All JSX templates use JSX Harmony (ES6) styling.  
