@@ -23,11 +23,11 @@ class Navbar extends React.Component {
             </ul>
         );
         return (
-            <div className="navbar">
+            <section className="navbar">
                 {iconContainer}
                 {textMenu}
                 {iconMenu}
-            </div>
+            </section>
         )
     }
 }
