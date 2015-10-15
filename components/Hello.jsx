@@ -1,5 +1,6 @@
 /** @jsx React.DOM */
-'use strict'
+'use strict';
+
 var React = require('react')
 class Hello extends React.Component {
     render() {
