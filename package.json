@@ -1,7 +1,7 @@
 {
-  "name": "hackuvic",
+  "name": "React-Template",
   "version": "0.0.1",
-  "description": "hackuvic website",
+  "description": "React Template Website",
   "main": "index.js",
   "scripts": {
     "start": "npm run serve | npm run dev",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/JakeCooper/HackUVIC.git"
+    "url": "https://github.com/JakeCooper/React-Template.git"
   },
   "author": "Jake Cooper",
   "license": "MIT",

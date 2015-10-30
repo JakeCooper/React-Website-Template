@@ -2,14 +2,14 @@
 'use strict';
 var React = require('react');
 var ReactDOM = require('react-dom');
-var Navbar = require('./navbar/navbar.jsx');
+var Hello = require('./Hello.jsx');
 require("../less/main.less"); //load less main file to compile all less.
 
 class Index extends React.Component {
     render() {
         return (
             <div>
-                <Navbar />
+                <Hello />
             </div>
         )
 
